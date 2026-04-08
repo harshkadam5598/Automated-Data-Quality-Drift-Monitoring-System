@@ -38,8 +38,8 @@ Data Upload → Quality Checks → Drift Detection → API → Dashboard
 ## 🚀 How to Run
 
 ```bash
-# Install dependencies
-pip install -r requirements.txt
+# Install required libraries
+pip install fastapi uvicorn streamlit python-multipart plotly
 
 # Run API
 python -m uvicorn src.app:app --reload
@@ -52,10 +52,11 @@ python -m streamlit run src/dashboard.py
 
 ## 📊 Key Highlights
 
-* Designed a **modular data validation system**
-* Implemented **automated drift detection logic**
-* Built a **backend API for real-time processing**
-* Developed a **user-friendly dashboard for monitoring**
+* Built a complete end-to-end system, not just scripts
+* Combined data validation + drift detection in one pipeline
+* Designed a backend API for automated processing
+* Developed a user-friendly dashboard for real-time insights
+* Focused on clean architecture and modular design
 
 ---
 
